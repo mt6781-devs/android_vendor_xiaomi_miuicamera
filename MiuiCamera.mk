@@ -23,9 +23,9 @@ endif
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     persist.vendor.camera.privapp.list=com.android.camera \
     ro.com.google.lens.oem_camera_package=com.android.camera \
-    ro.miui.build.region=in \
+    ro.miui.build.region?=in \
     ro.miui.notch=1 \
-    ro.product.mod_device=_global \
+    ro.product.mod_device?=_global \
     vendor.camera.aux.packagelist=com.android.camera
 
 # Soong
